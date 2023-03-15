@@ -22,8 +22,8 @@ package KlassnieRaboti;
 import java.util.Scanner;
 
 class Second2{
+    static Scanner sc = new Scanner(System.in);
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
         boolean flag = false;
         int p = 1;
         String s;

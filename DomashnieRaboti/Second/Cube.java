@@ -8,10 +8,10 @@ public class Cube {
         int counter = 0;
         int cubeNumber = 0;
         String s;
-        for(s = sc.next(); !s.equals("СТОП"); s = sc.next()){
-            if ((s != "ээээ") | (s != "потом")) {
+        for(s = sc.next(); !s.equals("STOP"); s = sc.next()){
+            if ((!s.equals("aaaa")) | (s.equals("then"))) {
                 counter += 1;
-                if (s == "Куб") {
+                if (s.equals("Cube")) {
                     cubeNumber = counter;
                 }
             }
