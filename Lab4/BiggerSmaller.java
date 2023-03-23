@@ -1,7 +1,7 @@
 package Lab4;
 
 import java.util.Scanner;
-import java.lang.Math;;
+import java.lang.Math;
 
 public class BiggerSmaller {
     static Scanner sc = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class BiggerSmaller {
         return(a);
     }
     
-    static void gamingPocess() {
+    static void gamingProcess() {
         int randomNumber = generateRandom();
         int counter = 1;
         System.out.print("Guess a number between 1 and 100: ");
@@ -36,7 +36,7 @@ public class BiggerSmaller {
     public static void main(String[] args) {
         String option = "y";
         while (!option.equals("n")) {
-            gamingPocess();
+            gamingProcess();
             System.out.println("Would you like to play again? (y/n)");
             option = sc.next();
         }
